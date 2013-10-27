@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	<script src="prefixfree.min.js"></script>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="estilos.css">
+	
+	<script src="js/modernizr.custom.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" href="css/iview.css" />
+		<link rel="stylesheet" href="css/skin 4/style.css" />
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/raphael-min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.js"></script>
+		<script src="js/iview.js"></script>
+		<link rel="stylesheet" href="responsive nav/responsive-nav.css">
+    <script src="responsive nav/responsive-nav.js"></script>
+    <script src="js/codigo.js"></script>
+</head>
+<body>
+	<header>
+		<figure>
+			<img src="logo.png" alt="">
+		</figure>
+		<div id="navegacion">
+			<nav class="nav-collapse">
+				<ul>
+					<li><a href="#" title="home">home</a></li>
+					<li><a href="#"title="blog">blog</a></li>
+					<li><a href="portfolio.html" title="portfolio">portfolio</a></li>
+					<li><a href="#" title="contact">contact me :)</a></li>
+				</ul>
+			</nav>
+			<input type="text" placeholder="Username">
+		</div>
+	</header>
+	<section id="slideshow_and_signup">
+		<aside id="slideshow_container">
+			<section id="slide">
+							<!--Una de las "imágenes" del slideshow ( En realidad es más que sólo una imagen ) -->
+							<div id="iview">
+
+								<!--data-iview:image : La imagen principal; data-iview:transition : Tipo de transición[Lista por la Línea 400] (Si no pones ninguna usará una aleatoria);data-iview:pausetime: Tiempo de espera ( Sólo para esta imagen )[La única obligatoria es la primera]-->
+								<div data-iview:image="photos/photo11.jpg" data-iview:transition="fade" data-iview:pausetime="5000">
+									<!--La información de la imagen (caption)[Class:explicando que es un caption;data-x:Posición en x de izq a der;data-y:Posición en y de arriba a abajo;data-transition:Tipo de transición de los datos del caption(línea  596 de iview.js)]-->
+									<div class="iview-caption" data-x="0" data-y="302" data-transition="fade">
+										<!--Aquí va el artículo ( Éste es un poco más resumido que los que siguen, más adelante lo explico) -->
+										<article class="item_imagen">
+											<h2 class="titulo_item_imagen">
+												<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+											</h2>
+											<p class="datos_item">
+												<a class="tag_item" href="html5.html">Seguir leyendo</a>
+												<a class="comentarios_item" href="#">455</a>
+											</p>
+										</article>
+									</div>
+								</div>
+								<!--Otra nueva ""diapositiva""-->
+								<div data-iview:image="photos/photo12.jpg" data-iview:transition="fade">
+									<div class="iview-caption caption2" data-x="0" data-y="302" data-transition="fade">
+										<article class="item_imagen">
+											<h2 class="titulo_item_imagen">
+												<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+											</h2>
+											<p class="datos_item">
+												<a class="tag_item" href="html5.html">Seguir leyendo</a>
+												<a class="comentarios_item" href="#">455</a>
+											</p>
+										</article>
+									</div>
+								</div>
+								<div data-iview:image="photos/photo13.jpg" data-iview:transition="fade">
+									<div class="iview-caption caption3" data-x="0" data-y="302" data-transition="fade">
+										<article class="item_imagen">
+											<h2 class="titulo_item_imagen">
+												<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+											</h2>
+											<p class="datos_item">
+												<a class="tag_item" href="html5.html">Seguir leyendo</a>
+												<a class="comentarios_item" href="#">455</a>
+											</p>
+										</article>
+									</div>
+								</div>
+								<div  data-iview:image="photos/photo14.jpg" data-iview:transition="fade">
+									<div class="iview-caption caption4" data-x="0" data-y="302" data-transition="fade">
+										<article class="item_imagen">
+											<h2 class="titulo_item_imagen">
+												<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+											</h2>
+											<p class="datos_item">
+												<a class="tag_item" href="html5.html">Seguir leyendo</a>
+												<a class="comentarios_item" href="#">455</a>
+											</p>
+										</article>
+									</div>
+								</div>
+							</div>
+						<!--Fin del slideshow. :)-->
+						</section>
+				</aside>
+				<aside id="registro">
+					<input type="text" placeholder="Give me your Name" title="name">
+					<input type="text" placeholder="Choose an awesome Username" title="username">
+					<input type="password" placeholder="And a Password" title="password">
+					<button class="button" title="Sign up...Seriously, nothing else :)">Sign Up</button>
+				</aside>
+	</section>
+	<section id="container">
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="chrome.png" />
+			</figure>
+			<h2 class="titulo_item">
+				<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+			</h2>
+			<p class="datos_item">
+				<a class="tag_item" href="html5.html">html5</a>
+				<a class="tag_item" href="django.html">django</a>
+				<a class="comentarios_item" href="#">455</a>
+			</p>
+		</article>
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="chrome.png" />
+			</figure>
+			<h2 class="titulo_item">
+				<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+			</h2>
+			<p class="datos_item">
+				<a class="tag_item" href="html5.html">html5</a>
+				<a class="tag_item" href="django.html">django</a>
+				<a class="comentarios_item" href="#">455</a>
+			</p>
+		</article>
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="chrome.png" />
+			</figure>
+			<h2 class="titulo_item">
+				<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+			</h2>
+			<p class="datos_item">
+				<a class="tag_item" href="html5.html">html5</a>
+				<a class="tag_item" href="django.html">django</a>
+				<a class="comentarios_item" href="#">455</a>
+			</p>
+		</article>
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="chrome.png" />
+			</figure>
+			<h2 class="titulo_item">
+				<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+			</h2>
+			<p class="datos_item">
+				<a class="tag_item" href="html5.html">html5</a>
+				<a class="tag_item" href="django.html">django</a>
+				<a class="comentarios_item" href="#">455</a>
+			</p>
+		</article>
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="chrome.png" />
+			</figure>
+			<h2 class="titulo_item">
+				<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+			</h2>
+			<p class="datos_item">
+				<a class="tag_item" href="html5.html">html5</a>
+				<a class="tag_item" href="django.html">django</a>
+				<a class="comentarios_item" href="#">455</a>
+			</p>
+		</article>
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="chrome.png" />
+			</figure>
+			<h2 class="titulo_item">
+				<a href="articulo.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+			</h2>
+			<p class="datos_item">
+				<a class="tag_item" href="html5.html">html5</a>
+				<a class="tag_item" href="django.html">django</a>
+				<a class="comentarios_item" href="#">455</a>
+			</p>
+		</article>
+	</section>
+	<footer></footer>
+	<!--Slideshow-->
+	
+		<!--Insertando un script de Javascript... En html ( Puede estar en el head o en el body )-->
+		<script>
+			/*Declarando algunas variables*/
+			$(document).ready(function(){
+				$('#iview').iView({
+					/*Duración de cada imagen ( Milisegundos )*/
+					pauseTime: 5000,
+					/*Permitir pausar cuando se pasa el ratón sobre la imagen ( Hover )*/
+					pauseOnHover: true,
+					/*La opacidad de las flechas de dirección cuando el hover acabe*/
+					directionNavHoverOpacity: 0,
+					/*El tipo de barra de tiempo ( A mí sólo me funciona bar , pero también está 360bar, pie. No sé, busca por iview.js :))*/
+					timer: "Bar",
+					/*El espacio que ocupa la barra ésa ↑ */
+					timerDiameter: "100%",
+					/*El padding de la susodicha barra ( Espacio de más interno ) */
+					timerPadding: 0,
+					/*Grosor de la barra*/
+					timerStroke: 7,
+					/*Grosor del borde de la barra*/
+					timerBarStroke: 0,
+					/*Color de la barra*/
+					timerColor: "#FFF",
+					/*Posición de la barra...*/
+					timerPosition: "top"
+				
+					/*Por el renglón 1538 de iview.js hay más opciones, pero sé cuidadoso*/
+				});
+			});
+		/*Fin del Script*/
+		</script>
+		<script>
+		  	var nav = responsiveNav(".nav-collapse",{ // Selector
+			animate: true, // Boolean: Use CSS3 transitions, true or false
+			transition: 300, // Integer: Speed of the transition, in milliseconds
+			label: "", // String: Label for the navigation toggle
+			insert: "before", // String: Insert the toggle before or after the navigation
+			customToggle: "", // Selector: Specify the ID of a custom toggle
+			openPos: "static", // String: Position of the opened nav, relative or static
+			jsClass: "js", // String: 'JS enabled' class which is added to <html> el
+			init: function(){}, // Function: Init callback
+			open: function(){}, // Function: Open callback
+			close: function(){} // Function: Close callback
+
+			});
+			
+		</script>
+</body>
+</html>
