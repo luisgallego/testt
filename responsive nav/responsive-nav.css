@@ -8,7 +8,16 @@
   user-select: none;
 }
 
+@media screen and (max-width: 350px){
+  form input
+  {
+    width: 100%;
+    padding-left:0;
+    padding-right:0;  
+  }
 
+}
+}
 @media screen and (min-width: 40em) {
   .js .nav-collapse {
     position: relative;
@@ -87,9 +96,17 @@
       height: 0;
       padding-bottom: 100%;
     }
+    .titulo_item
+    {
+      text-align: center;
+    }
     #container .item figure img
     {
       width: 100%;
+    }
+    .datos_item
+    {
+      display: none;
     }
     .nav-toggle
     {
@@ -103,7 +120,7 @@
  
         font-family: 'icomoon';
        content: "\e600";
-       font-size: 2em;
+       font-size: 32px;
        color: #27ae60;
     }
     #navegacion input
@@ -115,15 +132,15 @@
     }
     header
     {
-      height: 3.1em ;
+      height: 49px ;
     }
     header.abierto
 {
-height: 12em ;
+height: 192px ;
 }
 header.cerrado
 {
-height: 3.1em ;
+height: 49px  ;
 }
 
 }
@@ -175,3 +192,23 @@ a:hover {
 
 }
 
+@media screen and (max-width: 726px) {
+  @media screen and (min-width: 40em) {
+  #navegacion nav
+  {
+    width: 40%;
+  }
+  #navegacion input
+  {
+    width: 35% ;
+  }
+  header
+  {
+    height: 180px;
+  }
+  form #mensaje
+  {
+    height: 7em;
+  }
+}
+}

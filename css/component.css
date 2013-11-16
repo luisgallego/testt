@@ -32,7 +32,7 @@
 	border-bottom-color: #ddd;
 	border-width: 15px;
 	left: 50%;
-	margin: -20px 0 0 -15px;
+	margin: -15px 0 0 -15px;
 }
 
 .og-expander {
@@ -41,7 +41,7 @@
 	top: auto;
 	left: 0;
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 15px;
 	text-align: left;
 	height: 0;
 	overflow: hidden;
